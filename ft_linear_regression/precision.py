@@ -16,3 +16,5 @@ def main():
     rmse = get_rmse(actual_price, predicted_price)
     print(f"Root Mean Squared Error (RMSE): {rmse:.2f}")
 
+if __name__ == "__main__":
+    main()

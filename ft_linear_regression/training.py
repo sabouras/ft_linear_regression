@@ -1,6 +1,5 @@
 import sys
 import numpy as np
-import pandas as pd
 from utils import save_parameters, read_file, visualize
 
 
@@ -62,3 +61,6 @@ def main():
         """)
     except Exception as e:
         print(f"Error: {e}")
+
+if __name__ == "__main__":
+    main()
